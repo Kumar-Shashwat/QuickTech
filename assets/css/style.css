@@ -564,6 +564,10 @@ section {
 /*--------------------------------------------------------------
 # Clients
 --------------------------------------------------------------*/
+.clients-bg{
+  background-color: #9daac2;
+}
+
 .clients {
   padding: 12px 0;
   text-align: center;
@@ -1821,4 +1825,51 @@ section {
   #footer .credits {
     padding-top: 4px;
   }
+}
+
+
+/* .dropdown-container {
+  display: flex;
+}
+
+.dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+} */
+
+
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.choose-business{
+  padding-top : 3rem;
+}
+
+.dropdown-section{
+  margin-top: 3rem;
+  margin-left: 8rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #37517e;
+}
+
+.btn{
+  margin :4rem 2rem 1rem 2rem;
+  position:relative;
+  left :6rem;
 }
